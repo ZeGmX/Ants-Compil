@@ -1,0 +1,82 @@
+/* o.u.r. */ $ /* f.i.r.s.t */ $ /* b.r.a.i.n */ $
+
+
+/* m.o.v.e */ $
+def 0 :
+  moveerror
+    turn left
+  enderror
+enddef
+
+$
+
+/* p.i.c.k */ $ /* f.o.o.d */ $
+def 1 :
+  if food here then
+    pickup call 0 endcall endpickup
+  else
+    call 0 endcall
+  endif
+enddef$
+
+
+/* g.o */ $ /* b.a.c.k */ $
+def 2 :
+
+  repeat 3 times :
+    turn left
+  endrepeat;
+
+enddef$
+
+
+/* s.o.m.e.t.h.i.n.g */ $
+def 3 :
+
+  if marker aleft 0 then
+    turn left
+  else
+    if marker aright 0 then
+      turn right
+    else
+    endif
+  endif
+
+enddef
+
+$
+
+
+/*t.e.s.t */ $ /* h.o.m.e */ $
+def 4 :
+
+  if home here then
+    drop
+  else
+
+  endif
+
+enddef $
+
+
+/*r.a.n.d.o.m */ $ /* t.u.r.n */ $
+def 5 :
+  aleat 2 ifyes turn left ifno endaleat;
+  aleat 2 ifyes turn right ifno endaleat
+enddef $
+
+
+
+/* m.a.i.n */ $
+
+repeat 3 times :
+  call 0 endcall;
+  call 1 endcall;
+  call 4 endcall
+endrepeat
+$
+call 5 endcall
+
+$
+
+mark 0

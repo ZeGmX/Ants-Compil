@@ -1,0 +1,212 @@
+syntax abstract tree at position line 1 column 1:
+start:
+Move label_error1 
+Goto label1 
+
+label_error1:
+Turn Left 
+Goto label1 
+
+label1:
+
+
+Sense Here label2 label3 Food
+
+label2:
+PickUp label_error2 
+Goto label5 
+
+label_error2:
+Move label_error3 
+Goto label6 
+
+label_error3:
+Turn Left 
+Goto label6 
+
+label6:
+
+
+Goto label5 
+
+label5:
+
+Goto label4
+
+label3:
+Move label_error4 
+Goto label7 
+
+label_error4:
+Turn Left 
+Goto label7 
+
+label7:
+
+
+Goto label4
+
+label4:
+
+
+Sense Here label8 label9 Home
+
+label8:
+Drop
+
+Goto label10
+
+label9:
+Goto label10
+
+label10:
+
+
+Move label_error5 
+Goto label11 
+
+label_error5:
+Turn Left 
+Goto label11 
+
+label11:
+
+
+Sense Here label12 label13 Food
+
+label12:
+PickUp label_error6 
+Goto label15 
+
+label_error6:
+Move label_error7 
+Goto label16 
+
+label_error7:
+Turn Left 
+Goto label16 
+
+label16:
+
+
+Goto label15 
+
+label15:
+
+Goto label14
+
+label13:
+Move label_error8 
+Goto label17 
+
+label_error8:
+Turn Left 
+Goto label17 
+
+label17:
+
+
+Goto label14
+
+label14:
+
+
+Sense Here label18 label19 Home
+
+label18:
+Drop
+
+Goto label20
+
+label19:
+Goto label20
+
+label20:
+
+
+Move label_error9 
+Goto label21 
+
+label_error9:
+Turn Left 
+Goto label21 
+
+label21:
+
+
+Sense Here label22 label23 Food
+
+label22:
+PickUp label_error10 
+Goto label25 
+
+label_error10:
+Move label_error11 
+Goto label26 
+
+label_error11:
+Turn Left 
+Goto label26 
+
+label26:
+
+
+Goto label25 
+
+label25:
+
+Goto label24
+
+label23:
+Move label_error12 
+Goto label27 
+
+label_error12:
+Turn Left 
+Goto label27 
+
+label27:
+
+
+Goto label24
+
+label24:
+
+
+Sense Here label28 label29 Home
+
+label28:
+Drop
+
+Goto label30
+
+label29:
+Goto label30
+
+label30:
+
+
+Flip 2 label31 label32
+
+label31:
+Turn Left 
+Goto label33
+
+label32:
+Goto label33
+
+label33:
+
+Flip 2 label34 label35
+
+label34:
+Turn Right 
+Goto label36
+
+label35:
+Goto label36
+
+label36:
+
+Mark 0
+Goto start

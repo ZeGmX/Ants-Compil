@@ -1,0 +1,1109 @@
+syntax abstract tree at position line 1 column 1:
+start:
+Mark 2
+Sense Ahead label7 label8 Friend
+
+label7:
+Turn Left 
+Goto label9
+
+label8:
+Sense LeftAhead label10 label11 Friend
+
+label10:
+Turn Left 
+Goto label12
+
+label11:
+Sense RightAhead label13 label14 Friend
+
+label13:
+Turn Left 
+Goto label15
+
+label14:
+
+label16:
+Sense Ahead label17 label18 Rock
+
+label18:
+Mark 2
+Move label_error1 
+Goto label19 
+
+label_error1:
+Flip 10 label20 label21
+
+label20:
+Turn Left 
+Goto label22
+
+label21:
+Goto label22
+
+label22:
+
+Goto label19 
+
+label19:
+
+Goto label16
+
+label17:
+
+
+Goto label15
+
+label15:
+
+Goto label12
+
+label12:
+
+Goto label9
+
+label9:
+
+Mark 2
+Sense Ahead label29 label30 Friend
+
+label29:
+Turn Left 
+Goto label31
+
+label30:
+Sense LeftAhead label32 label33 Friend
+
+label32:
+Turn Left 
+Goto label34
+
+label33:
+Sense RightAhead label35 label36 Friend
+
+label35:
+Turn Left 
+Goto label37
+
+label36:
+
+label38:
+Sense Ahead label39 label40 Rock
+
+label40:
+Mark 2
+Move label_error2 
+Goto label41 
+
+label_error2:
+Flip 10 label42 label43
+
+label42:
+Turn Left 
+Goto label44
+
+label43:
+Goto label44
+
+label44:
+
+Goto label41 
+
+label41:
+
+Goto label38
+
+label39:
+
+
+Goto label37
+
+label37:
+
+Goto label34
+
+label34:
+
+Goto label31
+
+label31:
+
+Mark 2
+Sense Ahead label51 label52 Friend
+
+label51:
+Turn Left 
+Goto label53
+
+label52:
+Sense LeftAhead label54 label55 Friend
+
+label54:
+Turn Left 
+Goto label56
+
+label55:
+Sense RightAhead label57 label58 Friend
+
+label57:
+Turn Left 
+Goto label59
+
+label58:
+
+label60:
+Sense Ahead label61 label62 Rock
+
+label62:
+Mark 2
+Move label_error3 
+Goto label63 
+
+label_error3:
+Flip 10 label64 label65
+
+label64:
+Turn Left 
+Goto label66
+
+label65:
+Goto label66
+
+label66:
+
+Goto label63 
+
+label63:
+
+Goto label60
+
+label61:
+
+
+Goto label59
+
+label59:
+
+Goto label56
+
+label56:
+
+Goto label53
+
+label53:
+
+Mark 2
+Sense Ahead label73 label74 Friend
+
+label73:
+Turn Left 
+Goto label75
+
+label74:
+Sense LeftAhead label76 label77 Friend
+
+label76:
+Turn Left 
+Goto label78
+
+label77:
+Sense RightAhead label79 label80 Friend
+
+label79:
+Turn Left 
+Goto label81
+
+label80:
+
+label82:
+Sense Ahead label83 label84 Rock
+
+label84:
+Mark 2
+Move label_error4 
+Goto label85 
+
+label_error4:
+Flip 10 label86 label87
+
+label86:
+Turn Left 
+Goto label88
+
+label87:
+Goto label88
+
+label88:
+
+Goto label85 
+
+label85:
+
+Goto label82
+
+label83:
+
+
+Goto label81
+
+label81:
+
+Goto label78
+
+label78:
+
+Goto label75
+
+label75:
+
+Mark 2
+Sense Ahead label95 label96 Friend
+
+label95:
+Turn Left 
+Goto label97
+
+label96:
+Sense LeftAhead label98 label99 Friend
+
+label98:
+Turn Left 
+Goto label100
+
+label99:
+Sense RightAhead label101 label102 Friend
+
+label101:
+Turn Left 
+Goto label103
+
+label102:
+
+label104:
+Sense Ahead label105 label106 Rock
+
+label106:
+Mark 2
+Move label_error5 
+Goto label107 
+
+label_error5:
+Flip 10 label108 label109
+
+label108:
+Turn Left 
+Goto label110
+
+label109:
+Goto label110
+
+label110:
+
+Goto label107 
+
+label107:
+
+Goto label104
+
+label105:
+
+
+Goto label103
+
+label103:
+
+Goto label100
+
+label100:
+
+Goto label97
+
+label97:
+
+Mark 2
+Sense Ahead label117 label118 Friend
+
+label117:
+Turn Left 
+Goto label119
+
+label118:
+Sense LeftAhead label120 label121 Friend
+
+label120:
+Turn Left 
+Goto label122
+
+label121:
+Sense RightAhead label123 label124 Friend
+
+label123:
+Turn Left 
+Goto label125
+
+label124:
+
+label126:
+Sense Ahead label127 label128 Rock
+
+label128:
+Mark 2
+Move label_error6 
+Goto label129 
+
+label_error6:
+Flip 10 label130 label131
+
+label130:
+Turn Left 
+Goto label132
+
+label131:
+Goto label132
+
+label132:
+
+Goto label129 
+
+label129:
+
+Goto label126
+
+label127:
+
+
+Goto label125
+
+label125:
+
+Goto label122
+
+label122:
+
+Goto label119
+
+label119:
+
+Flip 2 label133 label134
+
+label133:
+Turn Left 
+Goto label135
+
+label134:
+Goto label135
+
+label135:
+
+Flip 2 label136 label137
+
+label136:
+Turn Left 
+Goto label138
+
+label137:
+Goto label138
+
+label138:
+
+Flip 2 label139 label140
+
+label139:
+Turn Left 
+Goto label141
+
+label140:
+Goto label141
+
+label141:
+
+Flip 2 label142 label143
+
+label142:
+Turn Left 
+Goto label144
+
+label143:
+Goto label144
+
+label144:
+
+Flip 2 label145 label146
+
+label145:
+Turn Left 
+Goto label147
+
+label146:
+Goto label147
+
+label147:
+
+Flip 2 label148 label149
+
+label148:
+Turn Left 
+Goto label150
+
+label149:
+Goto label150
+
+label150:
+
+Flip 2 label151 label152
+
+label151:
+Turn Left 
+Goto label153
+
+label152:
+Goto label153
+
+label153:
+
+Flip 2 label154 label155
+
+label154:
+Turn Left 
+Goto label156
+
+label155:
+Goto label156
+
+label156:
+
+Flip 2 label157 label158
+
+label157:
+Turn Left 
+Goto label159
+
+label158:
+Goto label159
+
+label159:
+
+Flip 2 label160 label161
+
+label160:
+Turn Left 
+Goto label162
+
+label161:
+Goto label162
+
+label162:
+
+Flip 2 label163 label164
+
+label163:
+Turn Left 
+Goto label165
+
+label164:
+Goto label165
+
+label165:
+
+Flip 2 label166 label167
+
+label166:
+Turn Left 
+Goto label168
+
+label167:
+Goto label168
+
+label168:
+
+
+label169:
+Sense Ahead label170 label171 Rock
+
+label171:
+Mark 2
+Move label_error7 
+Goto label172 
+
+label_error7:
+Flip 10 label173 label174
+
+label173:
+Turn Left 
+Goto label175
+
+label174:
+Goto label175
+
+label175:
+
+Goto label172 
+
+label172:
+
+Goto label169
+
+label170:
+
+
+label176:
+Sense Here label177 label178 Marker 3
+
+label177:
+
+label180:
+Sense Ahead label181 label182 Marker 3
+
+label182:
+Flip 2 label183 label184
+
+label183:
+Turn Left 
+Goto label185
+
+label184:
+Turn Right 
+Goto label185
+
+label185:
+
+Goto label180
+
+label181:
+
+Flip 45 label186 label187
+
+label186:
+Flip 2 label189 label190
+
+label189:
+Turn Left 
+Goto label191
+
+label190:
+Turn Right 
+Goto label191
+
+label191:
+
+Goto label188
+
+label187:
+Goto label188
+
+label188:
+
+Goto label179
+
+label178:
+Flip 5 label192 label193
+
+label192:
+Flip 2 label195 label196
+
+label195:
+Turn Left 
+Goto label197
+
+label196:
+Goto label197
+
+label197:
+
+Flip 2 label198 label199
+
+label198:
+Turn Right 
+Goto label200
+
+label199:
+Goto label200
+
+label200:
+
+Goto label194
+
+label193:
+Goto label194
+
+label194:
+
+Goto label179
+
+label179:
+
+Move label_error8 
+Goto label201 
+
+label_error8:
+Flip 2 label202 label203
+
+label202:
+Turn Left 
+Goto label204
+
+label203:
+Turn Right 
+Goto label204
+
+label204:
+
+Goto label201 
+
+label201:
+
+Sense Here label208 label209 Food
+
+label208:
+Sense Here label214 label215 Home
+
+label214:
+Goto label216
+
+label215:
+Turn Left 
+Sense Here label217 label218 FoeHome
+
+label217:
+PickUp label_error9 
+Goto label220 
+
+label_error9:
+Flip 2 label221 label222
+
+label221:
+Turn Left 
+Goto label223
+
+label222:
+Turn Right 
+Goto label223
+
+label223:
+
+Flip 2 label224 label225
+
+label224:
+Turn Left 
+Goto label226
+
+label225:
+Turn Right 
+Goto label226
+
+label226:
+
+Flip 2 label227 label228
+
+label227:
+Turn Left 
+Goto label229
+
+label228:
+Turn Right 
+Goto label229
+
+label229:
+
+Flip 2 label230 label231
+
+label230:
+Turn Left 
+Goto label232
+
+label231:
+Turn Right 
+Goto label232
+
+label232:
+
+Flip 2 label233 label234
+
+label233:
+Turn Left 
+Goto label235
+
+label234:
+Turn Right 
+Goto label235
+
+label235:
+
+Flip 2 label236 label237
+
+label236:
+Turn Left 
+Goto label238
+
+label237:
+Turn Right 
+Goto label238
+
+label238:
+
+Flip 2 label239 label240
+
+label239:
+Turn Left 
+Goto label241
+
+label240:
+Turn Right 
+Goto label241
+
+label241:
+
+Flip 2 label242 label243
+
+label242:
+Turn Left 
+Goto label244
+
+label243:
+Turn Right 
+Goto label244
+
+label244:
+
+Flip 2 label245 label246
+
+label245:
+Turn Left 
+Goto label247
+
+label246:
+Turn Right 
+Goto label247
+
+label247:
+
+Flip 2 label248 label249
+
+label248:
+Turn Left 
+Goto label250
+
+label249:
+Turn Right 
+Goto label250
+
+label250:
+
+Flip 2 label251 label252
+
+label251:
+Turn Left 
+Goto label253
+
+label252:
+Turn Right 
+Goto label253
+
+label253:
+
+Flip 2 label254 label255
+
+label254:
+Turn Left 
+Goto label256
+
+label255:
+Turn Right 
+Goto label256
+
+label256:
+
+Flip 2 label257 label258
+
+label257:
+Turn Left 
+Goto label259
+
+label258:
+Turn Right 
+Goto label259
+
+label259:
+
+Flip 2 label260 label261
+
+label260:
+Turn Left 
+Goto label262
+
+label261:
+Turn Right 
+Goto label262
+
+label262:
+
+Flip 2 label263 label264
+
+label263:
+Turn Left 
+Goto label265
+
+label264:
+Turn Right 
+Goto label265
+
+label265:
+
+Flip 2 label266 label267
+
+label266:
+Turn Left 
+Goto label268
+
+label267:
+Turn Right 
+Goto label268
+
+label268:
+
+Flip 2 label269 label270
+
+label269:
+Turn Left 
+Goto label271
+
+label270:
+Turn Right 
+Goto label271
+
+label271:
+
+Flip 2 label272 label273
+
+label272:
+Turn Left 
+Goto label274
+
+label273:
+Turn Right 
+Goto label274
+
+label274:
+
+
+
+label275:
+Sense Ahead label276 label277 Rock
+
+label277:
+Mark 3
+Move label_error10 
+Goto label278 
+
+label_error10:
+Flip 10 label279 label280
+
+label279:
+Turn Left 
+Goto label281
+
+label280:
+Goto label281
+
+label281:
+
+Goto label278 
+
+label278:
+
+Goto label275
+
+label276:
+
+
+label282:
+Sense Here label283 label284 Home
+
+label284:
+Sense Here label285 label286 Marker 2
+
+label285:
+
+label288:
+Sense Ahead label289 label290 Marker 2
+
+label290:
+Flip 2 label291 label292
+
+label291:
+Turn Left 
+Goto label293
+
+label292:
+Turn Right 
+Goto label293
+
+label293:
+
+Goto label288
+
+label289:
+
+Goto label287
+
+label286:
+Goto label287
+
+label287:
+
+Move label_error11 
+Goto label294 
+
+label_error11:
+Turn Left 
+Goto label294 
+
+label294:
+
+Goto label282
+
+label283:
+
+Drop
+
+Turn Left 
+Turn Left 
+Turn Left 
+
+
+
+Goto label220 
+
+label220:
+
+Goto label219
+
+label218:
+Turn Left 
+PickUp label_error12 
+Goto label295 
+
+label_error12:
+
+label296:
+Sense Here label297 label298 Home
+
+label298:
+Sense Here label299 label300 Marker 2
+
+label299:
+
+label302:
+Sense Ahead label303 label304 Marker 2
+
+label304:
+Flip 2 label305 label306
+
+label305:
+Turn Left 
+Goto label307
+
+label306:
+Turn Right 
+Goto label307
+
+label307:
+
+Goto label302
+
+label303:
+
+Goto label301
+
+label300:
+Goto label301
+
+label301:
+
+Move label_error13 
+Goto label308 
+
+label_error13:
+Turn Left 
+Goto label308 
+
+label308:
+
+Goto label296
+
+label297:
+
+Drop
+
+Turn Left 
+Turn Left 
+Turn Left 
+
+
+
+Goto label295 
+
+label295:
+
+Goto label219
+
+label219:
+
+Goto label216
+
+label216:
+
+Goto label210
+
+label209:
+Goto label210
+
+label210:
+
+Sense Here label309 label310 FoeHome
+
+label309:
+
+label312:
+Sense Ahead label313 label314 FoeHome
+
+label314:
+Flip 2 label315 label316
+
+label315:
+Turn Left 
+Goto label317
+
+label316:
+Turn Right 
+Goto label317
+
+label317:
+
+Goto label312
+
+label313:
+
+Goto label311
+
+label310:
+Goto label311
+
+label311:
+
+Sense Here label318 label319 Home
+
+label318:
+Drop
+
+Goto label320
+
+label319:
+Goto label320
+
+label320:
+
+
+Goto label176
+
+Goto start
